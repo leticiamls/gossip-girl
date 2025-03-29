@@ -1,0 +1,229 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/background.jpeg);
+  background-size: contain;
+  background-position-x: -200px;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(img/HelveticaNeueThin.otf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+ .title{
+    position: relative;
+    font-family: 'Helvetica', sans-serif;
+    width: 900px;
+    top: 60px;
+    height: 100px;
+    left:0px;
+    top:60px;
+    text-align: center;
+    font-size: 150px;
+    line-height:0.5;
+    color: #edf5ae;
+    text-shadow: 0px 0px 4px #f6f873;
+  }
+
+.gossip{
+  position: relative; 
+  background-color: #f4f9f3;
+  color: black;
+  width: 330px;
+  height: 390px;
+  border: 5px solid white;
+  border-radius:10px;
+  left:275px;
+  }
+
+  .gossip-title{
+    position: absolute;
+    width: 330px;
+    font-weight: bold;
+    top: 0px;
+    height: 25px; 
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    line-height:1.2;
+  }
+  
+  .gossip-photo{
+  position: relative;
+  width: 280px;
+  height: 230px;
+  top: 25px;
+  left: 24.5px;
+  background-image: url(img/queenB.jpeg);
+  background-size: cover;
+  overflow: hidden;
+  }
+  
+  .gossip-text{
+  position: relative;
+  width: 280px;
+  height: 120px;
+  font-family: 'Helvetica', sans-serif;
+  top: 34px;
+  font-weight: bold;
+  left: 26px;
+  font-size: 15px;
+  line-height:1;
+  }
+  
+  .left{
+  position: relative;
+  line-height:1;
+  width:180px;
+  font-size:15px; 
+  top:70px;
+  left: 110px;  
+  height:64px
+  }
+  
+  .welcome-title{
+    color: #72add5;
+    font-size: 35px;
+    text-shadow: 0px 0px 5px blue;
+  }
+  
+  .gossipie-title{
+    color: #dd6a3d;
+    font-size:35px;
+    text-shadow: 0px 0px 5px orange;
+  }
+  
+  .pics-title{
+    color: #f6f873;
+    font-size: 35px;
+    text-shadow: 0px 0px 5px #faffd7;
+  }
+  
+  .parties-title{
+    color: #e26eae;
+    font-size:35px;
+    text-shadow: 0px 0px 5px red;
+  }
+    
+  .links{
+    color: #b1ce7e;
+    font-size: 35px;
+    text-shadow: 0px 0px 5px green;
+  }
+  
+  .circles{
+  position:relative;
+  background-color: #bcba81;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  border-radius: 50%;
+  top: -390px;
+  left: 650px;
+  box-shadow: 0px 0px #bcba81, 0px 80px #BCBA81, 0px 160px #bcba81, 0px 240px #bcba81;
+  }
+  
+ .circle1{
+  position: absolute;
+  background-image: url(img/nate.jpeg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 3px;
+  left:10px;
+  box-shadow: 0px 0px red;
+  }
+  
+  .c1-title{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 35px;
+  left:2px;
+  color: black;
+  }
+  
+  .circle2{
+  position: absolute;
+  background-image: url(img/dan.jpeg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 83px;
+  left:10px;
+  box-shadow: 0px 0px red;
+  }
+  
+  .c2-title{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 35px;
+  left:2px;
+  color: black;
+  }
+  
+  .circle3{
+  position: absolute;
+  background-image: url(img/blair.jpeg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 163px;
+  left:10px;
+  box-shadow: 0px 0px red;
+  }
+   
+  .c3-title{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 35px;
+  left:8px;
+  color: black;
+  }
+   
+  .circle4{
+  position: absolute;
+  background-image: url(img/serena.jpeg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 243px;
+  left:10px;
+  box-shadow: 0px 0px red;
+  } 
+  
+  .c4-title{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  border-radius: 50%;
+  top: 37px;
+  left:5px;
+  color: black;
+  }
+
